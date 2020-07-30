@@ -1,0 +1,581 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: #008600;
+}
+
+.txtDark {
+  color: #333;
+}
+
+.txtLight {
+  color: #f1f1f1;
+}
+
+.txtAccent {
+  color: #008600;
+}
+
+.txtVibur {
+  font-family: 'Vibur', cursive;
+  font-weight: 400;
+}
+
+.priceTxt {
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+}
+
+.priceTxt sup {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.bestChoice,
+.bestChoice .priceTxt sup {
+  color: #008600;
+}
+
+h4.card-title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+ul.list-group li.list-group-item i {
+  color: #008600;
+}
+
+.footerDiv {
+  padding: 20px 0px 0px 0px;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #008600;
+}
+
+/* for footer content title */
+.customHeading {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.footerStrip {
+  padding: 15px 0 15px 0;
+  background-color: #008600;
+  color: #f1f1f1;
+  font-size: 8pt;
+  margin-top: 25px;
+}
+
+.frameContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /*padding-top: 100%;*/ /* 1:1 Aspect Ratio */
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  border: 1px solid #ccc;
+}
+
+.frameContainer2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  /*padding-top: 56.25%;*/ /* 16:9 Aspect Ratio */
+  border: 1px solid #ccc;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 2.2rem;
+}
+
+.navbar-nav li {
+  padding: 0 15px 0 0;
+}
+
+.nav-item .nav-link {
+  font-weight: 600;
+  transition: 0.3s color ease-in-out;
+}
+
+.master-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 35rem;
+  /*padding: 10rem 0;*/
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0) 100%), url('../img/home_slide1.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.master-subHeader {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 6.5rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0) 100%), url('../img/home_slide1.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.header-caption {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  padding: 5px 20px 20px 20px;
+}
+
+.food-section {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.5) 100%), url('../img/foodBG.jpg');
+}
+
+.ratesInfo-section {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.5) 100%), url('../img/ratesInfoBG.jpg');
+  color: #fff;
+}
+
+.modal_test {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0.9) 100%), url('../img/home_slide1.jpg');
+}
+
+.btn-couple {
+  background-color: #f77482;
+  border-color: #f77482;
+  color: white;
+}
+
+/* PAGE SECTIONS*/
+.news-section,
+.food-section,
+.contact-section,
+.facilities-section,
+.bedroomPage-section,
+.rates-section,
+.ratesInfo-section,
+.promo-section,
+.modal_test,
+.tour-section,
+.tourOption-section,
+.booking-section {
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.3) 100%), url('../img/BBC_emblem.jpg');*/
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.casi-section {
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.3) 100%), url('../img/BBC_emblem.jpg');*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.spaces {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nospace {
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-space {
+  padding-bottom: 25px;
+}
+
+.top-space {
+  padding-top: 25px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.navbar-brand img {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  opacity: 1;
+}
+
+#mainNav {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s background ease-in-out, 0.3s border-bottom ease-in-out;
+}
+
+#mainNav .nav-item .nav-link {
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#mainNav .nav-item .nav-link:hover {
+  opacity: 1;
+}
+
+#mainNav .nav-item .nav-link.active {
+  opacity: 1;
+}
+
+#mainNav.navbar-shrink {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand img.imgBrand-shrink {
+  opacity: 1;
+}
+
+#mainNav.navbar-shrink .nav-item .nav-link {
+  color: #333333;
+}
+
+#mainNav.navbar-shrink .nav-item .nav-link:hover {
+  color: #008600;
+  opacity: 1;
+}
+
+#mainNav.navbar-shrink .nav-item .nav-link.active {
+  color: #008600;
+  opacity: 1;
+}
+
+#mainNav.navbar .navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.33);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#mainNav.navbar .navbar-toggler i {
+  font-size: 2rem;
+}
+
+#mainNav.navbar-shrink .navbar-toggler {
+  background-color: #008600;
+  color: rgba(255, 255, 255, 1);
+}
+
+.casiLogo {
+  max-width: 540px;
+  width: 100%;
+  height: auto;
+}
+
+.awards-section {
+  padding: 4rem 0 7rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0) 100%), url('../img/BBC_emblem.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.awards-section img {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  position: relative;
+  padding: 15px 0 15px 0;
+}
+
+.trans-container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* FOR THE NEW WAVEY DIVIDER */
+
+.editorial {
+  display: block;
+  width: 100%;
+  height: 60px;
+  max-height: 60px;
+  margin: 0;
+  z-index: 5;
+  bottom: 0;
+  position: absolute;
+  left: 0px;
+  float: left;
+}
+
+.editorialUp {
+  /* USE IF YOU WANT TO ROTATE THE SVG WAVE */
+  display: block;
+  width: 100%;
+  height: 60px;
+  max-height: 60px;
+  margin: 0;
+  z-index: 5;
+  top: 0;
+  position: absolute;
+  left: 0px;
+  float: left;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.parallax1 > use {
+  animation: move-forever1 10s linear infinite;
+}
+.parallax1 > use:nth-child(1) {
+  animation-delay: -2s;
+}
+
+.parallax2 > use {
+  animation: move-forever2 8s linear infinite;
+}
+.parallax2 > use:nth-child(1) {
+  animation-delay: -2s;
+}
+
+.parallax3 > use {
+  animation: move-forever3 6s linear infinite;
+}
+.parallax3 > use:nth-child(1) {
+  animation-delay: -2s;
+}
+
+.parallax4 > use {
+  animation: move-forever4 4s linear infinite;
+}
+.parallax4 > use:nth-child(1) {
+  animation-delay: -2s;
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever3 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever4 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+/******************************************************/
+
+/* PRELOADER */
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 9999999;
+}
+
+.preloader-logo {
+  width: 200px;
+  height: auto;
+}
+
+.loading-bar {
+  width: 200px;
+  height: 2px;
+  background: #ccc;
+  margin-top: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loading-bar::before {
+  content: '';
+  width: 68px;
+  height: 2px;
+  background: #008600;
+  position: absolute;
+  left: -34px;
+  animation: bluebar 1.5s infinite ease;
+}
+
+@keyframes bluebar {
+  50% {
+    left: 166px;
+  }
+}
+
+.noScrollLoad {
+  overflow: hidden;
+}
+
+/******************************************************/
+
+/* SIDEBAR */
+/* navbar becomes mobile sidebar under lg breakpoint */
+@media (max-width: 992px) {
+  #mainNav.navbar .nav-item .nav-link {
+    color: #333333;
+    font-size: 1.2rem;
+  }
+
+  #mainNav.navbar .nav-item .btn {
+    font-size: 1.2rem;
+  }
+
+  #mainNav.navbar .nav-item .nav-link:hover {
+    color: #008600;
+    opacity: 1;
+  }
+
+  #mainNav.navbar .nav-item .nav-link.active {
+    color: #008600;
+    opacity: 1;
+  }
+
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -55%;
+    transition: all 0.2s ease;
+    width: 0%;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    height: auto;
+    width: 55%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #f5f5f5;
+    border-left: 1px solid #ccc;
+    text-align: left;
+    color: #333;
+    padding: 2rem 1rem;
+    transition: right 0.33s ease-in-out, width 0.33s ease-in-out;
+  }
+
+  .navCloseBtn {
+    padding-bottom: 4rem !important;
+  }
+
+  .navbarSocial {
+    padding-bottom: 10px;
+  }
+}
