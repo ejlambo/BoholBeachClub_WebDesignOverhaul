@@ -1,7 +1,7 @@
 # Bohol Beach Club Website Design Overhaul
 The new **Bohol Beach Club** website design — *Initial Design*
 
-## Built with [Bootstrap v4.5](https://getbootstrap.com/)
+## Made with [Bootstrap v4.5](https://getbootstrap.com/)
 Read the Bootstrap documentation [here](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 
 
